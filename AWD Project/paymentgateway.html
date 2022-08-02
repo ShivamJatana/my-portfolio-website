@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="paymentform.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heads">
+        Tranquility
+    </div>
+    <div style="background-color: rgb(70, 71, 70);" class="wrapper">
+        <h2>Payment Gateway</h2>
+        <label for="cars" style="margin-right: 50px;">Choose a Membership</label>
+  <select style="background-color: rgb(56, 57, 59);color: white; font-size: 17px; border: 2px solid; border-color: rgb(45, 47, 51); width: 40%;"name="Membership">
+    <option class="opt" value="bronze">Bronze</option>
+    <option class="opt" value="silver">Silver</option>
+    <option class="opt" value="gold">Gold</option>
+  </select>
+  <br><br>
+</form>
+<form method="POST">
+            <h4>Account</h4>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="First Name" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+<div class="input-box">
+                    <input type="text" placeholder="Last Name" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="email" placeholder="Email Adress" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <h4>
+Date of Birth</h4>
+<input type="text" placeholder="DD" class="dob" maxlength='2'>
+                    <input type="text" placeholder="MM" class="dob" maxlength='2'>
+                    <input type="text" placeholder="YYYY" class="dob" maxlength='4'>
+                </div>
+<div class="input-box">
+                    <h4>
+Gender</h4>
+<input type="radio" id="b1" name="gendar" checked class="radio">
+                    <label for="b1">Male</label>
+                    <input type="radio" id="b2" name="gendar" class="radio">
+                    <label for="b2">Female</label>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <h4>
+Payment Details</h4>
+<input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span><i class="fa fa-cc-visa"></i> Credit Card</span></label>
+                    <input type="radio" name="pay" id="bc2" class="radio">
+                    <label for="bc2"><span><i class="fa fa-cc-paypal"></i> Paypal</span></label>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Card Number" required class="name" maxlength='16'>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Card CVC" required class="name" maxlength='3'>
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="inputdate">
+                    <input type="text" placeholder="MM / YY" maxlength='5'>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <button type="submit">PAY NOW</button>
+                </div>
+
+</div>
+</form>
+</div>
+</body>
+</html>
